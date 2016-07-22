@@ -1,5 +1,3 @@
-sudo su
-
 # Update repos
 cd ~/chipwhisperer
 git pull
