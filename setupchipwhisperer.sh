@@ -11,3 +11,17 @@ echo PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] '
 setxkbmap gb
 
 
+# Install sublime text 3
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+# Create Sublime launcher
+echo "[Desktop Entry]
+Type=Application
+Name=Sublime
+Exec=subl
+Terminal=false
+" > /home/cwuser/Desktop/sublime.desktop
+
+
