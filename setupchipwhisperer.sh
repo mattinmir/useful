@@ -24,4 +24,5 @@ Exec=subl
 Terminal=false
 " > /home/cwuser/Desktop/sublime.desktop
 
-
+# Installing Java
+sudo apt-get install default-jre
