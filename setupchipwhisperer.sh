@@ -30,3 +30,7 @@ echo "deb http://www.duinsoft.nl/pkg debs all" >> /etc/apt/sources.list
 sudo apt-key adv --keyserver keys.gnupg.net --recv-keys 0xE18CE6625CB26B26
 sudo apt-get update
 sudo apt-get install update-sun-jre
+
+# Python stuff
+sudo apt-get install python3-pip
+pip3 install numpy
